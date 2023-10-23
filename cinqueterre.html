@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    *{
+        box-sizing: border-box;
+    }
+    .row::after{
+        content: ;
+        clear: both;
+        display: table;
+    }
+     .anh {
+        grid-template-columns: auto auto;
+        background-color: rgb(241, 239, 239);
+    }
+    h3 ,b ,h2 {
+        font-family: Arial black ;
+    }
+   .cong p {
+        line-height: 20px;
+        border-bottom: 1px solid rgb(223, 220, 220);
+    }
+    .cong {
+        float: left ;
+        width: 20%;
+    }
+    .dep {
+        float: left;
+        width: 60%;
+    }
+    .trai {
+        background-color: rgb(87, 187, 187);
+        float: left;
+        width: 20%;
+        line-height: 20px;
+    }
+    img {
+        width: 95%;
+    }
+    .qua {
+        background-color: rgb(240, 239, 239);
+        clear: both;
+        float: ;
+    }
+    @media only screen and (max-width: 800px) {
+    /* For desktop: */
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 5%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 25%;}
+    .col-6 {width: 35%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 75%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 10%;}
+    .trai {width: 100%;}
+}
+    @media only screen and (min-width: 800px) {
+    /* For desktop: */
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 25%;}
+    .col-6 {width: 20%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 50%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+}
+    @media only screen and (max-width: 500px) {
+        /* For desktop: */
+        .col-1 {width: 8.33%;}
+        .col-2 {width: 16.66%;}
+        .col-3 {width: 1%;}
+        .col-4 {width: 33.33%;}
+        .col-5 {width: 100%;}
+        .col-6 {width: 50%;}
+        .col-7 {width: 58.33%;}
+        .col-8 {width: 100%;}
+        .col-9 {width: 75%;}
+        .col-10 {width: 83.33%;}
+        .col-11 {width: 91.66%;}
+        .col-12 {width: 10%;}
+
+        .trai{
+            width: 100%;
+        }
+}
+
+</style>
+<body>
+    <div class="anh">
+        <h3>Cinque Terre</h3>
+        <b>Resize the brower window</b>
+    </div>  
+    <div class="col-5 cong">
+        <p>The Walk</p>
+        <p>Transport</p>
+        <p>History</p>
+        <p>Gallery</p>
+    </div>
+    <div class="col-8 dep">
+        <h2> The walk</h2>
+        <p>The walk from Monterosso to Riomaggiore will take you approximately two hours, give or take an hour depending on the weather conditions and your physical shape .</p>
+        <img src="https://vinmec-prod.s3.amazonaws.com/images/20221215_090549_403172_lam-dung-can-sa.max-800x800.jpg" alt="">
+    </div>
+    <div class="trai">
+        <h2>What?</h2>
+        <p>Cinque Terre comorises five villages: Monterrosso, Vernazza, Corniglia, Manarola, and Roimaggiore.</p>
+        <h2>Where?</h2>
+        <p>On the northwest cost of the Italian Riviera, north of the city La Spezia.</p>
+        <h2>Price?</h2>
+        <p>The Walk is free!</p>
+    </div>
+    <div class="qua">
+        <p>This web page is a part of a demonstration of fluid web design made by me.com. Resize the browser window to see the content respond to the resizing.</p>
+    </div>
+</body>
+</html>
